@@ -4,6 +4,9 @@ can't alter remote once declared;
 
 
 
-Notes: 
-Revert also working for both (remote/local);
-Revert also working for both (remote/local)2;
+<<<<<<< HEAD
+
+=======
+Notes:
+revert is working for local too;
+>>>>>>> parent of 5b5bf64 (Revert "revert for local")
