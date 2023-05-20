@@ -1,3 +1,4 @@
 unable to create repo from cmd line;
 can't alter remote once declared;
 till here its ok;
+testing from VSCode;
