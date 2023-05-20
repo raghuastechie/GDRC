@@ -1,3 +1,2 @@
 unable to create repo from cmd line;
 can't alter remote once declared;
-working on reset & revert;
