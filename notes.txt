@@ -1,2 +1,8 @@
 unable to create repo from cmd line;
 can't alter remote once declared;
+
+
+
+
+Notes:
+revert is working for local too;
