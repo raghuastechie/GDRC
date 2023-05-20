@@ -54,6 +54,7 @@ git reset ### --soft			>>	removes only commits & not changes;
 
 **	reset for -- local; 	revert for remote;
 **  Revert also working for both (remote/local);
+**  Revert also working for both (remote/local)2;
 
 git log --oneline
 

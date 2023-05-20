@@ -6,3 +6,4 @@ can't alter remote once declared;
 
 Notes: 
 Revert also working for both (remote/local);
+Revert also working for both (remote/local)2;
