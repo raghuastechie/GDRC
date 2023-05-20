@@ -1,0 +1,119 @@
+For Clone:
+----------
+git clone "https://www.url.com"
+
+For Push:
+---------
+git status
+git add . [(or) text.txt]
+git commit -m 'first commit'
+git remote add origin "https://www.url.com"
+git push origin master
+
+For Pull:
+---------
+git pull
+*************************************************************
+
+ls to display list in the respective foler.
+ls -a >> including hidden files
+ls .git >> inside .git folder
+git init >> Initilize
+touch names.txt >> creates new file
+git status >> untracked, tracked
+git add . >> '.' for all. (changes to be committed)
+git commit -m >> (-m for message) commits 
+vi names.txt >> edit text file.
+cat names.txt >> displays inside the file.
+git log >> for last changes.
+git restore --staged names.txt >> to get outside of the stage
+rm -rf names.txt >> delete the file.
+git reset commitid >>
+*git stash
+------------
+git remote add origin https.... (to add repository url);
+git remote -v (will show all attached urls to project);
+git push origin master (to push files to url repo);
+Form means copy of project in github web.
+git checkout branchB >> to change the branch 
+
+*************************************************************
+git add alphaC.txt
+git add -f force.class; >> forcible commit even after mentioned gitignore file;
+
+
+git checkout master	>> git pull	>> git merge raghu	>>	git push origin master
+
+git clean -fd 	>>	removes untracked files;
+git restore --staged alphaB.txt	>>	removes from staging area;
+git revert Head --no-edit		>> 	removes latest(Head) commit;
+git revert ###				>>	removes the changes as new commit log;
+git reset ### --hard			>>	removes changes + commits;
+git reset ### --soft			>>	removes only commits & not changes;
+
+**	reset for -- local; 	revert for remote;
+
+
+git log --oneline
+
+
+git push -u origin loginBranch;
+
+
+
+git fetch --all	>>	fetches from gitHub;
+git fetch --all	>>	git branch	>>	git checkout Bbranch	>>	cat alphaA.txt;
+git branch		>>	shows branches available in work directory
+git branch -r	>>	shows only available branches in remotely
+git branch -a	>>	shows all available branches in remotely as well as local Directory;
+git branch -d Ebranch	>> delete specific branch;
+
+
+
+
+
+*************************************************************
+Info from GitHub Site:
+*************************************************************
+…or create a new repository on the command line
+echo "# GDRC" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuastechie/GDRC.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/raghuastechie/GDRC.git
+git branch -M main
+git push -u origin main
+
+*************************************************************
+*************************************************************
+configs; adding origins;
+
+clone 
+
+cat; vi; ls; status;
+
+add .; commit; push; pull;
+
+branches
+
+log
+revert; restore; reset
+
+.gitignore
+
+conflicts
+
+
+
+*************************************************************
+Some other notes:
+*************************************************************
+git config --global core.autocrlf false
+
+
+
